@@ -10,6 +10,8 @@ spec:
   test:
     enable: false
   values:
+    ui:
+      message: "Hello Staging!!"
     ingress:
       hosts:
         - host: podinfo.staging

@@ -8,6 +8,8 @@ spec:
     spec:
       version: ">=1.0.0"
   values:
+    ui:
+      message: "Hello Production!!"
     ingress:
       hosts:
         - host: podinfo.production
